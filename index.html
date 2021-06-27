@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Cek Resi</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+</head>
+<body background=".jpg" id="page-middle" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="72">
+  <nav class="navbar navbar-light" style="background-color: #90ceac;">
+        <div class="position-absolute top-0 start-50 translate-middle"></div>
+        <img src="JNE.png" width="50" height="40" >
+        <img src="Pos Indonesia.png" width="40" height="35" >
+        <img src="JNT.png" width="80" height="60" >
+        <img src="Sicepat.png" width="40" height="40" >
+        <img src="TIKI.png" width="80" height="40" >
+        <img src="Antareja.png" width="65" height="30" >
+        <img src="Wahana.png" width="65" height="30" >
+        <img src="Ninja.png" width="57" height="25" >
+        <img src="Lion.png" width="100" height="30" >
+        <img src="PCPExpress.png" width="80" height="40" >
+        <img src="JETexpress.png" width="55" height="25" >
+        <img src="REXExpress.jpg" width="50" height="30" >
+        <img src="Firstlogistic.png" width="80" height="25" >
+        <img src="IDexpress.png" width="85" height="30" >
+        <img src="ShopeeExpress.png" width="85" height="30" >
+        <img src="KGSExpress.png" width="85" height="44" >
+        <img src="SAPExpress.png" width="55" height="40" ></div>
+  </nav>
+      <section>
+          <div class="container">
+           <div class="row">
+
+            <div class="col-md-5">
+              <h1 class="text-center">CEK RESI</h1>
+              <form>
+                  <div class="form-group">
+                    <label for="exampleFormControlSelect1">Pilih Kurir</label>
+                    <select class="form-control" id="courier_input">
+                      <option value selected hidden>Pilih Kurir anda</option>
+                      <option value="jne">JNE</option>
+                      <option value="pos">POS Indonesia</option>
+                      <option value="jnt">JNT</option>
+                      <option value="sicepat">Si Cepat</option>
+                      <option value="tiki">TIKI</option>
+                      <option value="antareja">Antareja</option>
+                      <option value="wahana">Wahana</option>
+                      <option value="ninja">Ninja</option>
+                      <option value="lion">Lion</option>
+                      <option value="pcp">PCP Express</option>
+                      <option value="jet">JET Express</option>
+                      <option value="rex">REX Express</option>
+                      <option value="first">First Logistic</option>
+                      <option value="ide">ID Express</option>
+                      <option value="spx">Shopee Express</option>
+                      <option value="kgs">KGX Express</option>
+                      <option value="sap">SAP Express</option>
+                    </select> 
+                      <br>
+                      <div class="form-group">
+                        <label for="exampleInputpassword1">Nomor Resi</label>       
+                        <input type="text" class="form-control" id="awb_input" placeholder="Masukkan Nomor Resi">
+                      </div>
+                      <br>
+                      <div class="d-grid gap-2 col-6 mx-auto">
+                      <button type="button" class="btn btn-primary" id="search-button" onclick="hasil()">submit</button></div>
+                  </div>
+              </form>
+              <hr>
+            </div>
+            <div class="col" id="resi_status">
+            </div>
+          </div>
+          </div>
+      </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
